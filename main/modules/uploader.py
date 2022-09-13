@@ -27,8 +27,8 @@ async def upload_video(msg: Message,file,id,tit,name,ttl):
             tags = tags_generator(tit)
             buttons = InlineKeyboardMarkup([
                 [
-                    InlineKeyboardButton(text="Info", url="https://t.me/Anime_Dex"),
-                    InlineKeyboardButton(text="Comments", url=f"https://t.me/+4nUo4jBR-JgxMTVl")
+                    InlineKeyboardButton(text="Info", url="https://t.me/animecollectionXSupport"),
+                    InlineKeyboardButton(text="Comments", url=f"https://t.me/animecollectionXSupport")
                 ]
             ])
             caption = f"🎥 **{name}**\n\n{tags}"
